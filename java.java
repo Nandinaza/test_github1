@@ -2,6 +2,8 @@ public class java{
        public static void main (String[] args) {
               System.out.println("hello world");
               main.test();
+              teman teman1 = new teman("muo");
+              teman1.show(0);
               //ini saya tamba
        }
 }
