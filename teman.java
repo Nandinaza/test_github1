@@ -2,7 +2,7 @@ class teman{
 	private String[] nama = new String[10];
 	teman(String plus){
 		for(int i = 0;i < nama.length;i++){
-			if(nama[i] != null){
+			if(nama[i] == null){
 				nama[i] = plus;
 			}
 		}
